@@ -574,9 +574,10 @@ button {
 }
 
 .faq-answer {
-  max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s;
+  padding: 12px 15px;
+  display: none;
 }
 
 .faq-answer p {
@@ -586,6 +587,7 @@ button {
 
 .faq-item.open .faq-answer {
   max-height: 200px;
+  display: block;
 }
 
 /* call to action */
